@@ -1,0 +1,5 @@
+Hello!  
+
+I'm a Software Engineer specialised in the backend, and also an aspiring Software Architect. I believe that *engineering* and *coding* proficiency is vital to a teams success, but also that these skills can be elevated by a deeper understanding of the underlying **infrastrcture**, the chosen **architecture**, and the design **patterns** and **choices** implemented.  
+A big part of my work experiene revolved around Full-stack development and self managing the maintenance and deployments of my projects, so I'm also well acquainted with *frontend*, *SQL* databases, *Windows* and *Linux* services and deployment tactics.  
+While i have several non-code related hobbies, in my free time I frequently find myself undertaking several projects, ranging from *raspberry-pi* and *micro-controller* scripting and engineering, to *Android* and *Game* development, to finding the appropriate technology stack for the *website* of me and my colleagues' most recent startup idea.

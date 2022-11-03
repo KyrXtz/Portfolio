@@ -1,0 +1,42 @@
+[
+    {
+        "id": "featured-project-iot-project",
+        "title": "IoT Project - Diploma Thesis",
+        "year": "Jan 2018 - Oct 2018",
+        "location": "National Technical University of Athens",
+        "app": "",
+        "github": "https://github.com/KyrXtz/HexiwearMeanStack",
+        "tags": ["C", "Mongo DB", "ExpressJS", "AngularJS", "NodeJS", "Cloud", "Python", "Raspberry Pi", "BLE", "Hexiwear", "Fall Detection", "Statistical Algorithms", "Cusum"],
+        "description": "IoT end-to-end system combining fall detection and measurement of various health characteristics using an open-source smart wearable (achieved with the implementation of sensor data algorithms and statistical analysis), transferring the data to a Raspberry-pi for processing ,recording in databases, taking action when needed, and displaying data of individuals in a user friendly way on a web-platform.",
+        "readMore": "http://artemis.cslab.ece.ntua.gr:8080/jspui/bitstream/123456789/17125/1/%ce%b4%ce%b9%cf%80%ce%bb%cf%89%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%ce%ae%20%ce%b5%cf%81%ce%b3%ce%b1%cf%83%ce%af%ce%b1.pdf",
+        "image": "/assets/featured-projects/iot.webp",
+        "jpg": "/assets/featured-projects/iot.jpeg"
+    },
+    {
+        "id": "featured-project-mybudget",
+        "title": "myBudget - Expense widget",
+        "year": "Nov 2021 - Feb 2022",
+        "location": "",
+
+        "tags": ["React-Native","Cross-Platform","Android","iOS","Javascript","Java","Objective C","Gradle","NPM","i18n"],
+        "app": "https://play.google.com/store/apps/details?id=com.kyrxtz.mybudget",
+        "github": "https://github.com/KyrXtz/myBudget",
+        "description": "Cross platform mobile app, for tracking daily expenses and giving budget suggestions based on them. Features expansive widget but also in-app functionality, like automations of fixed costs and incomes, savings tabs, custom expense categories and more.",
+        "image": "/assets/featured-projects/mybudget.webp",
+        "jpg": "/assets/featured-projects/mybudget.jpeg"
+    },
+    {
+        "id": "featured-project-wordmania-leksomania",
+        "title": "Wordmania! • Λεξομανία!",
+        "year": "Feb 2022 - Jul 2022",
+        "location": "",
+        "app": "https://play.google.com/store/apps/details?id=com.kyrxtz.crosswordladdersUS",
+        "app2": "https://play.google.com/store/apps/details?id=com.kyrxtz.crosswordladders",
+        "github": "https://github.com/KyrXtz/Wordmania",
+        "github2": "https://github.com/KyrXtz/Leksomania",
+        "tags": ["C#", "Unity3D", ".Net", "Mono", "Game Development"],
+        "description": "A crossword game for android designed with extensibility in mind, by developing an algorithm to dynamically create levels based on a word dictionary input, meaning it can be extended in any language which uses an alphabetic writing system. Currently deployed in English (US) and Greek.",
+        "image": "/assets/featured-projects/wordmania.webp",
+        "jpg": "/assets/featured-projects/wordmania.jpeg"
+    }
+]

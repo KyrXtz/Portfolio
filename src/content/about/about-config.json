@@ -1,0 +1,67 @@
+{
+    "educations": [
+        {
+            "id": "edu-1",
+            "school": "National Technical University of Athens",
+            "degree": "Master of Engineering - MEng , Electrical and Computer Engineering",
+            "duration": "Sep 2011 - Jul 2019",
+            "content": [
+                "Specialization in Computer Systems and Software",
+                 "Telecommunications Systems and Computer Networks",
+                 "Energy Conversion, High Voltages and Industry applications"]
+        }
+    ],
+    "experiences": [
+        {
+            "id": "exp-1",
+            "company": "Modus",
+            "position": "Software Engineer (Junior)",
+            "duration": "Mar 2019 - Nov 2020",
+            "description": [
+                "Maintenance and development of WPF Desktop App using the MVVM architecture.​",
+                "Design and implementation of relational databases.",
+                "Development of Windows services to handle background tasks, and Winforms (C#) apps to monitor and control them.",
+                "Creating and maintaining Linux system."
+            ]
+        },
+        {
+            "id": "exp-2",
+            "company": "Modus",
+            "position": "Software Engineer",
+            "duration": "Aug 2021 - Jun 2022",
+            "description": [
+                "Porting existing c++ legacy code to, and development of .net core service using microservices architecture.",
+                "Winforms (C#) apps and services to migrate client data."               
+            ]
+        },
+        {
+            "id": "exp-3",
+            "company": "Accepted Ltd.",
+            "position": "Software Engineer",
+            "duration": "Jun 2022 - Present",
+            "description": [
+                "Developing project from the ground-up using Domain Driven Design and microservices architecture, which is integrated in a large existing system.",
+                "Took active part in designing the Domain structure, and the underlying system."
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "title": "Proficient",
+            "tools": ["C#","Object oriented programming",".Net Framework",".Net Core","SQL","Back-end engineering","Winforms","WPF"]
+        },
+        {
+            "title": "Advanced",
+            "tools": ["Software Architecture","Domain Driven Design","Microservices", "Design patterns","Full-stack development","Javascript", "REST", "gRPC", "Linux", "Git", "Unity3D", "HTML/CSS"]
+        },
+        {
+            "title": "Intermediate",
+            "tools": ["C++","Android Development","React Native","Angular","Typescript", "Xamarin", "MySQL","OAuth2", "Azure","Firebase","Agile (Scrum)"]
+        },
+
+        {
+            "title": "Novice",
+            "tools": ["MongoDB","MySQL","Python","TeamCity","Octopus","Docker","Kubernetes"]
+        }
+    ]
+}

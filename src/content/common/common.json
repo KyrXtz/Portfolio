@@ -1,0 +1,28 @@
+{
+    "name": "Kyriakos Chatzisavvas",
+    "logoType": {
+        "mobile": "KC",
+        "desktop": "Kyriakos Ch"
+    },
+    "mainPicture": "/assets/kc.webp",
+    "mainPictureJPG": "/assets/kc.jpeg",
+    "cssVarPrefix": "kc",
+    "email": "kyriakosch21@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/hrishikeshpaul/",
+    "github": "https://github.com/hrishikeshpaul",
+    "resume": "https://drive.google.com/file/d/10fZEL8KQYUW3IRWUOwle6ce2O1WHsphL/view?usp=sharing",
+    "socials": [
+        {
+            "type": "linkedin",
+            "link": "https://www.linkedin.com/in/kyriakosch/"
+        },
+        {
+            "type": "github",
+            "link": "https://github.com/KyrXtz"
+        },
+        {
+            "type": "mail",
+            "link": "mailto:kyriakosch21@gmail.com"
+        }
+    ]
+}
