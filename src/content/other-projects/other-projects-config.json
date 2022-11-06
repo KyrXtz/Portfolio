@@ -4,7 +4,7 @@
         "title": "myBudget - Expense widget promo website",
         "year": "Feb 2022 - Mar 2022",
         "github": "https://github.com/KyrXtz/MyBudget-Site",
-        "site":"https://github.com/KyrXtz/MyBudget-Site",
+        "site":"http://mybudget.ddns.net/",
         "app": "",
         "tags": ["VueJs", "Javascript", "Css", "NPM"],
         "description": "This site was made as landing page for myBudget - Expense widget app. It contains the privacy policy required by google play. What originally was a simple static page with the policy only quickly evolved to a robust site with a playful attitude, in order to promote downloading the app, with the power of VueJs.",
