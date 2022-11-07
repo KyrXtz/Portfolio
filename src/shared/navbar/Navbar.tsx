@@ -52,7 +52,7 @@ export const Navbar: FC = () => {
                                 _hover={{ color: "primary.600" }}
                                 _focus={{ bg: "transparent" }}
                             >
-                                Work
+                                Projects
                             </Button>                           
                             <Button
                                 variant="link"
