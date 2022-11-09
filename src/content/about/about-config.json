@@ -52,11 +52,11 @@
         },
         {
             "title": "Advanced",
-            "tools": ["Software Architecture","Domain Driven Design","Microservices", "Design patterns","Grafana","Prometheus","Docker","Kubernetes","ELK","Full-stack development","Javascript", "REST", "gRPC", "Linux", "Git", "Unity3D", "HTML/CSS"]
+            "tools": ["Software Architecture","Domain Driven Design","Microservices", "Design patterns","Grafana","Prometheus","Docker","Kubernetes","ELK","Full-stack development","Javascript", "REST", "Linux", "Git", "Unity3D", "HTML/CSS"]
         },
         {
             "title": "Intermediate",
-            "tools": ["C++","Android Development","React Native","Angular","Typescript", "Xamarin", "MySQL","OAuth2", "Azure","Firebase","Agile (Scrum)"]
+            "tools": ["C++","Android Development","React Native","Angular","Typescript", "Xamarin", "MySQL","OAuth2","gRPC","Azure","Firebase","Agile (Scrum)"]
         },
 
         {
