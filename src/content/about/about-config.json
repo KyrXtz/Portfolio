@@ -52,7 +52,7 @@
         },
         {
             "title": "Advanced",
-            "tools": ["Software Architecture","Domain Driven Design","Microservices", "Design patterns","Grafana","Prometheus","ELK","Full-stack development","Javascript", "REST", "gRPC", "Linux", "Git", "Unity3D", "HTML/CSS"]
+            "tools": ["Software Architecture","Domain Driven Design","Microservices", "Design patterns","Grafana","Prometheus","Docker","Kubernetes","ELK","Full-stack development","Javascript", "REST", "gRPC", "Linux", "Git", "Unity3D", "HTML/CSS"]
         },
         {
             "title": "Intermediate",
@@ -61,7 +61,7 @@
 
         {
             "title": "Novice",
-            "tools": ["MongoDB","MySQL","Python","TeamCity","Octopus","Docker","Kubernetes"]
+            "tools": ["MongoDB","MySQL","Python","TeamCity","Octopus"]
         }
     ]
 }
