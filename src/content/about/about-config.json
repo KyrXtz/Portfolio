@@ -56,12 +56,12 @@
         },
         {
             "title": "Intermediate",
-            "tools": ["C++","Android Development","React Native","Angular","Typescript", "Xamarin", "MySQL","OAuth2","gRPC","Azure","Firebase","Agile (Scrum)"]
+            "tools": ["C++","Android Development","React Native","Angular","Typescript", "Xamarin", "MySQL","OAuth2","gRPC","Azure","K6","UML","Firebase","Agile (Scrum)"]
         },
 
         {
             "title": "Novice",
-            "tools": ["MongoDB","MySQL","Python","TeamCity","Octopus"]
+            "tools": ["MongoDB","MySQL","Python","Swift","Objective C","TeamCity","Octopus"]
         }
     ]
 }
