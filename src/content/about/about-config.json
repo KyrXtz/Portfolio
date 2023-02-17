@@ -18,7 +18,7 @@
             "position": "Software Engineer (Junior)",
             "duration": "Mar 2019 - Nov 2020",
             "description": [
-                "Maintenance and development of WPF Desktop App using the MVVM architecture.​",
+                "Maintenance and development of WPF Desktop App using the MVVM design pattern.​",
                 "Design and implementation of relational databases.",
                 "Development of Windows services to handle background tasks, and Winforms (C#) apps to monitor and control them.",
                 "Creating and maintaining Linux system."
@@ -36,7 +36,7 @@
         },
         {
             "id": "exp-3",
-            "company": "Accepted Ltd.",
+            "company": "Accepted",
             "position": "Software Engineer",
             "duration": "Jun 2022 - Present",
             "description": [
@@ -48,15 +48,15 @@
     "skills": [
         {
             "title": "Proficient",
-            "tools": ["C#","Object oriented programming",".Net Framework",".Net Core","SQL","Back-end engineering","Winforms","WPF"]
+            "tools": ["C#","Object oriented programming",".Net 6",".Net Framework",".Net Core","SQL","Back-end engineering","Winforms","WPF"]
         },
         {
             "title": "Advanced",
-            "tools": ["Software Architecture","Domain Driven Design","Microservices", "Design patterns","Grafana","Prometheus","Docker","Kubernetes","ELK","Full-stack development","Javascript", "REST", "Linux", "Git", "Unity3D", "HTML/CSS"]
+            "tools": ["Software Architecture","Domain Driven Design","Microservices", "Design patterns","Grafana","Prometheus","Docker","ELK","UML","Full-stack development","Javascript", "REST", "Linux", "Git", "Unity3D", "HTML/CSS"]
         },
         {
             "title": "Intermediate",
-            "tools": ["C++","Android Development","React Native","Angular","Typescript", "Xamarin", "MySQL","OAuth2","gRPC","Azure","K6","UML","Firebase","Agile (Scrum)"]
+            "tools": ["C++","Android Development","React Native","Angular","Typescript", "Xamarin", "MySQL","OAuth2","gRPC","Azure","Kubernetes","K6","Firebase","Agile (Scrum)"]
         },
 
         {
