@@ -8,6 +8,7 @@ import { ProjectCardFooter } from "shared/project-card-footer/ProjectCardFooter"
 interface Props {
     id: string;
     title: string;
+    showFlags?:boolean;
     app?: string;
     site?: string,
     github?: string;
@@ -18,7 +19,7 @@ interface Props {
     jpg: string;
 }
 
-export const OtherProjectCard: FC<Props> = ({ id, title, app, site, github, tags, description, readMore, image, jpg }) => {
+export const OtherProjectCard: FC<Props> = ({ showFlags, id, title, app, site, github, tags, description, readMore, image, jpg }) => {
     return (
         <Flex
             alignItems={{ base: "flex-start", lg: "center" }}
@@ -43,7 +44,7 @@ export const OtherProjectCard: FC<Props> = ({ id, title, app, site, github, tags
                     </Text>
                     <Tags tags={tags} id={id} size="xs" />
                 </Box>
-                <ProjectCardFooter readMore={readMore} github={github} app={app} site = {site} />
+                <ProjectCardFooter showFlags={showFlags} readMore={readMore} github={github} app={app} site = {site} />
             </Flex>
         </Flex>
     );

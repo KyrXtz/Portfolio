@@ -1,5 +1,18 @@
 [
     {
+        "id": "featured-project-flight-services",
+        "title": "Flight Services • Frontend & Backend",
+        "year": "Jan 2023 - May 2023",
+        "location": "",
+        "site": "http://localhost:3000/",
+        "github": "https://github.com/KyrXtz/FlightScanner",
+        "github2": "https://github.com/KyrXtz/FlightServices",
+        "tags": ["Layered Architecture","AngularJS", "Java", "Spring Boot", "MySQL", "SendGrid", "AviationStack", "Docker", "REST API", "Jasmine", "Karma", "Maven", "Node.js", "Bootstrap", "Font Awesome"],
+        "description": "An end-to-end flight booking and check-in system split across a frontend and backend. The frontend, FlightScanner, is an Angular-based web application allowing users to search for flights, make reservations, and complete the check-in process. The backend, FlightServices, is a Spring Boot application written in Java, which provides the API for the frontend. It interacts with databases, handles HTTP requests, and integrates with SendGrid for email notifications and AviationStack for flight data. The backend is fully dockerized, offering scalability and ease of deployment anywhere.",
+        "image": "/assets/featured-projects/flightservices.webp",
+        "jpg": "/assets/featured-projects/flightservices.jpeg"
+        },
+    {
         "id": "featured-project-iot-project",
         "title": "IoT Project - Diploma Thesis",
         "year": "Jan 2018 - Oct 2018",
@@ -17,7 +30,6 @@
         "title": "myBudget - Expense widget",
         "year": "Nov 2021 - Feb 2022",
         "location": "",
-
         "tags": ["React-Native","Cross-Platform","Android","iOS","Javascript","Java","Objective C","Gradle","NPM","i18n"],
         "app": "https://play.google.com/store/apps/details?id=com.kyrxtz.mybudget",
         "github": "https://github.com/KyrXtz/myBudget",
@@ -30,6 +42,7 @@
         "title": "Wordmania! • Λεξομανία!",
         "year": "Feb 2022 - Jul 2022",
         "location": "",
+        "showFlags":true,
         "app": "https://play.google.com/store/apps/details?id=com.kyrxtz.crosswordladdersUS",
         "app2": "https://play.google.com/store/apps/details?id=com.kyrxtz.crosswordladders",
         "github": "https://github.com/KyrXtz/Wordmania",

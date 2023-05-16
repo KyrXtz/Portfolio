@@ -6,8 +6,11 @@ import { ArrowRightIcon, GitHubIcon } from "utils/Icons";
 import { open } from "utils/Functions";
 import { FaGooglePlay, FaLink } from "react-icons/fa";
 import { US, GR } from 'country-flag-icons/react/3x2'
+import { Text } from "@chakra-ui/react";
 
-
+interface MainProps{
+    showFlags?:boolean;
+}
 interface GitHubButtonProps {
     github?: string;
     github2?: string;
@@ -25,7 +28,7 @@ interface LiveDemoProps {
     display?: any;
 }
 
-interface Props extends GitHubButtonProps, ReadMoreProps, LiveDemoProps {}
+interface Props extends MainProps, GitHubButtonProps, ReadMoreProps, LiveDemoProps {}
 
 export const ReadMore: FC<ReadMoreProps> = ({ readMore }) => {
     return readMore ? (
@@ -102,21 +105,48 @@ export const Site: FC<LiveDemoProps> = ({ site }) => {
     ) : null;
 };
 
-export const ProjectCardFooter: FC<Props> = ({ readMore, github, github2, app, app2, site }) => {
+export const ProjectCardFooter: FC<Props> = ({ showFlags, readMore, github, github2, app, app2, site }) => {
     return (
-        <Flex justifyContent={readMore || app2 ? "space-between" : "flex-end"} alignItems="center" pt="8">
-            <ReadMore  readMore={readMore} />          
-            <Flex gap="4" justifyContent="space-between" alignItems="center" display={app || github ? "flex" : "none"}>
-                {app2 && <US height={18} /> }
-                <LiveDemo app={app} />
+        <Flex justifyContent={readMore ? "space-between" : "flex-end"} alignItems="center" pt="8">
+            <ReadMore readMore={readMore} />
+            {(github && github2 && site) && (
                 <Site site={site} />
-                <GitHubButton github={github} />               
-            </Flex>
-            <Flex gap="4" justifyContent="space-between" alignItems="center" display={app2 || github2 ? "flex" : "none"}>
-                <GR height={18} />
-                <LiveDemo app={app2} />
-                <GitHubButton github={github2} />
-            </Flex>
+            )}
+            {(github && github2 && site) && (
+                <Flex justifyContent="space-between" alignItems="center">
+                    <Flex alignItems="center">
+                        <GitHubButton github={github} />
+                        <Text mx={2}>&bull;</Text>
+                        <GitHubButton github={github2} />
+                    </Flex>
+                </Flex>
+            )}
+
+            {(app2 && github2) && (
+                <Flex justifyContent="space-between" alignItems="center" display="flex">
+                    {showFlags && <US height={18} />}
+                    <Flex gap="4" justifyContent="space-between" alignItems="center">
+                        <LiveDemo app={app2} />
+                        <Site site={site} />
+                        <GitHubButton github={github2} />
+                    </Flex>
+                    {showFlags && <GR height={18} />}
+                    <Flex gap="4" justifyContent="space-between" alignItems="center">
+                        <LiveDemo app={app2} />
+                        <GitHubButton github={github2} />
+                    </Flex>
+                </Flex>
+            )}
+
+            {((app || github) && !github2) && (
+                <Flex gap="4" justifyContent="space-between" alignItems="center" display={app || github ? "flex" : "none"}>
+                    <LiveDemo app={app} />
+                    <Site site={site} />
+                    <GitHubButton github={github} />
+                </Flex>
+            )}
         </Flex>
     );
 };
+
+

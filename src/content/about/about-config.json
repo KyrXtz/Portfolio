@@ -40,7 +40,7 @@
             "position": "Software Engineer",
             "duration": "Jun 2022 - Present",
             "description": [
-                "Developing project from the ground-up using Domain Driven Design and microservices architecture, which is integrated in a large existing system.",
+                "Developing project(s) from the ground-up using Domain Driven Design and microservices architecture, which is integrated in a larger existing system.",
                 "Took active part in designing the Domain structure, and the underlying system."
             ]
         }
@@ -48,20 +48,20 @@
     "skills": [
         {
             "title": "Proficient",
-            "tools": ["C#","Object oriented programming",".Net 6",".Net Framework",".Net Core","SQL","Back-end engineering","Winforms","WPF"]
+            "tools": ["C#","Object oriented programming",".Net 6",".Net 7",".Net Framework",".Net Core","SQL","Back-end engineering","Winforms","WPF"]
         },
         {
             "title": "Advanced",
-            "tools": ["Software Architecture","Domain Driven Design","Microservices", "Design patterns","Grafana","Prometheus","Docker","ELK","UML","Full-stack development","Javascript", "REST", "Linux", "Git", "Unity3D", "HTML/CSS"]
+            "tools": ["Software Architecture","Domain Driven Design","Microservices", "Design patterns","Grafana","Prometheus","Docker","ELK","UML","Full-stack development","Angular","Typescript","Javascript", "Java","REST","SOAP", "Linux", "Git", "Unity3D", "HTML/CSS"]
         },
         {
             "title": "Intermediate",
-            "tools": ["C++","Android Development","React Native","Angular","Typescript", "Xamarin", "MySQL","OAuth2","gRPC","Azure","Kubernetes","K6","Firebase","Agile (Scrum)"]
+            "tools": ["C++","Spring-Boot","Android Development","React Native",".Net MAUI", "Xamarin","OAuth2","gRPC","Azure","Kubernetes","K6","Firebase","Agile (Scrum)"]
         },
 
         {
             "title": "Novice",
-            "tools": ["MongoDB","MySQL","Python","Swift","Objective C","TeamCity","Octopus"]
+            "tools": ["MongoDB","MySQL","Python","Swift","F#","Objective C","TeamCity","Octopus"]
         }
     ]
 }

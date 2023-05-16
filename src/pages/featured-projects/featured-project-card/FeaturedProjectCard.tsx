@@ -13,6 +13,8 @@ interface Props {
     title: string;
     year: string;
     location: string;
+    showFlags?:boolean;
+    site?:string;
     app?: string;
     app2?: string;
     github?: string;
@@ -43,6 +45,8 @@ const ImagePositionPaddingLeftMapper: Record<ImagePosition, string> = {
 export const FeaturedProjectCard: FC<Props> = ({
     id,
     title,
+    showFlags,
+    site,
     app,
     app2,
     github,
@@ -112,7 +116,7 @@ export const FeaturedProjectCard: FC<Props> = ({
                     <Tags tags={tags} id={id} />
                 </Box>
 
-                <ProjectCardFooter readMore={readMore} github={github} app={app} app2={app2} github2={github2} />
+                <ProjectCardFooter readMore={readMore} github={github} site={site} showFlags={showFlags} app={app} app2={app2} github2={github2} />
             </Flex>
 
             <Box
