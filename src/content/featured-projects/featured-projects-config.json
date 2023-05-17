@@ -4,7 +4,7 @@
         "title": "Flight Services • Frontend & Backend",
         "year": "Jan 2023 - May 2023",
         "location": "",
-        "site": "http://localhost:3000/",
+        "site": "https://flightscanner.ddns.net",
         "github": "https://github.com/KyrXtz/FlightScanner",
         "github2": "https://github.com/KyrXtz/FlightServices",
         "tags": ["Layered Architecture","AngularJS", "Java", "Spring Boot", "MySQL", "SendGrid", "AviationStack", "Docker", "REST API", "Jasmine", "Karma", "Maven", "Node.js", "Bootstrap", "Font Awesome"],
