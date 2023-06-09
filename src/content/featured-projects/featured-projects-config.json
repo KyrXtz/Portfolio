@@ -1,5 +1,17 @@
 [
     {
+        "id": "featured-project-likeable-backend",
+        "title": "LikeableBackend • Backend Engine for the 3D Printing Community",
+        "year": "Sep 2022 - Mar 2023",
+        "location": "",
+        "site": "",
+        "github": "https://github.com/KyrXtz/LikeableBackend",
+        "tags": [".NET 6", "C#", "Hexagonal/Onion architecture", "Microservices", "Domain Driven Design", "Clean Code", "CQRS", "SOLID principles", "DRY principles", "MediatR", "NLog", "FluentValidation", "Ardalis GuardClauses", "EntityFrameworkCore", "IdentityUser", "Authentication","JwtBearer", "MSSqlServer", "Swashbuckle", "Tokens"],
+        "description": "LikeableBackend is a robust and efficient backend system for the Likeable concept-platform, a platform where 3D printing enthusiasts could share their creations, receive likes, favorites, and even place orders the creations of others. It was crafted using .NET 6 and a well-structured Hexagonal/Onion architecture with microservices at its core, leveraging key principles from Domain Driven Design, Clean Architecture, CQRS, SOLID and DRY, to ensure a maintainable and scalable codebase.",
+        "image": "/assets/featured-projects/likeablebackend.webp",
+        "jpg": "/assets/featured-projects/likeablebackend.jpeg"
+    },    
+    {
         "id": "featured-project-flight-services",
         "title": "Flight Services • Frontend & Backend",
         "year": "Jan 2023 - May 2023",
@@ -11,10 +23,10 @@
         "description": "An end-to-end flight booking and check-in system split across a frontend and backend. The frontend, FlightScanner, is an Angular-based web application allowing users to search for flights, make reservations, and complete the check-in process. The backend, FlightServices, is a Spring Boot application written in Java, which provides the API for the frontend. It interacts with databases, handles HTTP requests, and integrates with SendGrid for email notifications and AviationStack for flight data. The backend is fully dockerized, offering scalability and ease of deployment anywhere.",
         "image": "/assets/featured-projects/flightservices.webp",
         "jpg": "/assets/featured-projects/flightservices.jpeg"
-        },
+    },
     {
         "id": "featured-project-iot-project",
-        "title": "IoT Project - Diploma Thesis",
+        "title": "IoT Project • Diploma Thesis",
         "year": "Jan 2018 - Oct 2018",
         "location": "National Technical University of Athens",
         "app": "",
@@ -27,7 +39,7 @@
     },
     {
         "id": "featured-project-mybudget",
-        "title": "myBudget - Expense widget",
+        "title": "myBudget • Expense widget",
         "year": "Nov 2021 - Feb 2022",
         "location": "",
         "tags": ["React-Native","Cross-Platform","Android","iOS","Javascript","Java","Objective C","Gradle","NPM","i18n"],
