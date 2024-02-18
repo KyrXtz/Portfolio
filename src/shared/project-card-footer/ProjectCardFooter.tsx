@@ -126,9 +126,9 @@ export const ProjectCardFooter: FC<Props> = ({ showFlags, readMore, github, gith
                 <Flex justifyContent="space-between" alignItems="center" display="flex">
                     {showFlags && <US height={18} />}
                     <Flex gap="4" justifyContent="space-between" alignItems="center">
-                        <LiveDemo app={app2} />
+                        <LiveDemo app={app} />
                         <Site site={site} />
-                        <GitHubButton github={github2} />
+                        <GitHubButton github={github} />
                     </Flex>
                     {showFlags && <GR height={18} />}
                     <Flex gap="4" justifyContent="space-between" alignItems="center">
