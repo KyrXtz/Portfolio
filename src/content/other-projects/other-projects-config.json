@@ -28,7 +28,6 @@
         "title": "I-am-bored",
         "year": "Mar 2020 - Aug 2020",
         "github": "https://github.com/KyrXtz/I-am-bored",
-        "app": "https://play.google.com/store/apps/details?id=com.kyrxtz.i.am.bored",
         "tags": ["React native", "Expo","Javascript","Cross platform", "Android", "iOS", "Rest API", "Json"],
         "description": "A joke app, made as a personal introduction to react native and android development that unknowingly had a massive appeal to users, boasting 10 thousand downloads even in its open beta stage with zero marketing. It featured a single red button, that when pressed returned a random article from wikipedia for the user to read when bored. Later funcionality was added to return random videos from youtube and random music from spotify. Due to the chaotic structure of the code (it being an introductory app) the app couldn't be scaled accordingly to meet the high user demand, without recreating from scratch, so the project had to be ultimately dropped.",
         "image": "/assets/other-projects/iambored.webp",

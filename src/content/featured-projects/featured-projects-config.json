@@ -1,5 +1,17 @@
 [
     {
+        "id": "featured-project-sportsbet",
+        "title": "SportsBet • A Highly-Available Resilient Betting Solution",
+        "year": "Jul 2023 - Nov 2023", 
+        "location": "",  
+        "site": "",  
+        "github": "https://github.com/KyrXtz/SportsBet",  
+        "tags": [ ".NET 7", "C#", "Domain Driven Design", "Hexagonal/Onion architecture", "Microservices", "Clean Code", "CQRS", "SOLID principles", "DRY principles", "Docker", "Kubernetes", "Autofac", "NuGet", "Metrics", "HealthChecks", "DistributedLock", "FluentValidation", "MediatR", "Polly", "AutoMapper", "Quartz", "StackExchangeRedis", "MassTransit", "NLog", "NSwag", "Swashbuckle", "Moq", "xunit", "k6"],
+        "description": "SportsBet is the foundation for a dynamic backend platform that integrates provider data and statistics, delivering a user-friendly experience while remaining competitive. It's built on .NET 7, employing Hexagonal/Onion architecture with microservices. It adheres to principles from Domain Driven Design, Clean Code, and CQRS, ensuring a robust and maintainable codebase. The solution features advanced technologies like AppMetrics, Autofac, and MediatR, and supports Docker and Kubernetes for containerization. It's designed to be resilient, highly available, and scalable, with plans to harness AI for personalized recommendations.",
+        "image": "/assets/featured-projects/sportsbet.webp",
+        "jpg": "/assets/featured-projects/sportsbet.webp"
+    },     
+    {
         "id": "featured-project-likeable-backend",
         "title": "LikeableBackend • Backend Engine for the 3D Printing Community",
         "year": "Sep 2022 - Mar 2023",
