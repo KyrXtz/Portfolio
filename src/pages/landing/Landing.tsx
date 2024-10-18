@@ -21,7 +21,12 @@ export const Landing: FC = () => {
     return (
         <Box id="page-landing">
             <Center pb={{ base: 16, md: 32 }}>
-                <HStack spacing="16" justifyContent="space-between" alignItems="flex-start">
+                <Stack 
+                    direction={{ base: "column", lg: "row" }} 
+                    spacing="16"
+                    justifyContent="space-between"
+                    alignItems={{ base: "center", lg: "flex-start" }} 
+                >
                     <Stack flex={{ base: "1", lg: "0.6" }} spacing="16">
                         <Stack spacing="8">
                             <Heading
@@ -32,6 +37,29 @@ export const Landing: FC = () => {
                             >
                                 {configs.landing.headline}
                             </Heading>
+
+                            {/* Image: displayed between headline and content on mobile */}
+                            <Container
+                                alignItems="center"
+                                flex={{ base: "1", lg: "0.4" }} 
+                                display={{ base: "block", lg: "none" }} 
+                                data-aos="fade-up"
+                                data-aos-delay="400"
+                            >
+                                <picture>
+                                    <source type="image/webp" src={configs.landing.picture}></source>
+                                    <source type="image/jpeg" src={configs.landing.jpg}></source>
+                                    <Image 
+                                        borderRadius="xl" 
+                                        src={configs.landing.jpg} 
+                                        alt={`coder-cover-image`} 
+                                        maxWidth="50%"
+                                        objectFit="cover"
+                                        mx="auto"
+                                    />                                
+                                </picture>
+                            </Container>
+
                             <Content data-aos="fade-up" data-aos-delay="500" fontSize="lg">
                                 {content.landing}
                             </Content>
@@ -39,10 +67,12 @@ export const Landing: FC = () => {
 
                         <Socials delay={1000} />
                     </Stack>
+
+                    {/* Image for larger screens */}
                     <Container
                         alignItems="center"
                         flex="0.4"
-                        display={{ base: "none", lg: "block" }}
+                        display={{ base: "none", lg: "block" }} 
                         data-aos="fade-up"
                         data-aos-delay="400"
                     >
@@ -52,7 +82,7 @@ export const Landing: FC = () => {
                             <Image borderRadius="xl" src={configs.landing.jpg} alt={`coder-cover-image`} />
                         </picture>
                     </Container>
-                </HStack>
+                </Stack>
             </Center>
             <Flex justifyContent="center" data-aos="fade" data-aos-delay="1400">
                 <Button
