@@ -45,6 +45,32 @@
             ]
         }
     ],
+    "certifications": [
+        {
+            "id": "cert-1",
+            "title": "Purposeful Leadership Academy",
+            "subTitle": "Team Leadership",
+            "date": "May 2024 - Jul 2024",
+            "content": [
+                "Emotional intelligence (EQ) for team dynamics",
+                "Team motivation and goal alignment",
+                "Effective communication and conflict resolution",
+                "Strategic planning and decision-making"
+            ],
+            "link":"https://drive.google.com/file/d/1Z_1A0QZrHdgyONfDcabjAO2C5InWiBrz/view"
+        },
+        {
+            "id": "cert-2",
+            "title": "Certificate of Proficiency in English (C2)",
+            "subTitle": "University of Michigan",
+            "date": "May 2013",
+            "content": [
+                "Grade A - 228 Score",
+                "CEFR level : C2"
+            ],
+            "link":""
+        }
+    ],
     "skills": [
         {
             "title": "Proficient",

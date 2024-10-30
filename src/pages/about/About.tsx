@@ -6,6 +6,7 @@ import { configs, Content, MarkdownFile, useContent } from "shared/content/Conte
 import { Education } from "pages/about/education/Education";
 import { Experience } from "pages/about/experience/Experience";
 import { Skills } from "pages/about/skills/Skills";
+import { Certifications } from "./certifications/Certifications";
 
 export const About: FC = () => {
     const content = useContent(MarkdownFile.About);
@@ -38,6 +39,8 @@ export const About: FC = () => {
             >
                 <Box flex="0.6" flexShrink="-moz-initial" overflow="hidden">
                     <Education />
+                    <br></br>
+                    <Certifications/>
                 </Box>
                 <Box flex="0.6" overflow="hidden">
                     <Experience />

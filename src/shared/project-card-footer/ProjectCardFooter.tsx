@@ -105,6 +105,25 @@ export const Site: FC<LiveDemoProps> = ({ site }) => {
     ) : null;
 };
 
+export const Certificate: FC<LiveDemoProps> = ({ site }) => {
+    const as = useBreakpointValue({ base: IconButton, lg: Button });
+
+    return site ? (
+        <Button
+            data-aos="fade"
+            data-aos-delay="400"
+            as={as}
+            variant="secondary"
+            py="5"
+            leftIcon={<FaLink />}
+            icon={<FaLink />}
+            onClick={() => open(site)}
+        >
+            Certificate
+        </Button>
+    ) : null;
+};
+
 export const ProjectCardFooter: FC<Props> = ({ showFlags, readMore, github, github2, app, app2, site }) => {
     return (
         <Flex justifyContent={readMore ? "space-between" : "flex-end"} alignItems="center" pt="8">

@@ -16,7 +16,7 @@ export const Education: FC = () => {
 
             <Accordion pt="2" allowMultiple index={educationExpanded} id="education">
                 {configs.about.educations.map((edu, idx) => (
-                    <AccordionItem p="0" border="0" mb="4" key={`panel-${edu.school}-${edu.degree}`}>
+                    <AccordionItem p="0" border="0" mb="8" key={`panel-${edu.school}-${edu.degree}`}>
                         <Expandable
                             title={edu.school}
                             subTitle={edu.degree}
