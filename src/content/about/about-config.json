@@ -27,7 +27,7 @@
         {
             "id": "exp-2",
             "company": "Modus",
-            "position": "Software Engineer",
+            "position": "Senior Software Engineer",
             "duration": "Aug 2021 - Jun 2022",
             "description": [
                 "Porting existing c++ legacy code to, and development of .net core service using microservices architecture.",
@@ -36,12 +36,24 @@
         },
         {
             "id": "exp-3",
-            "company": "Accepted",
+            "company": "Accepted - Novibet",
             "position": "Software Engineer",
-            "duration": "Jun 2022 - Present",
+            "duration": "Jun 2022 - May 2025",
             "description": [
                 "Developing project(s) from the ground-up using Domain Driven Design and microservices architecture, which is integrated in a larger existing system.",
                 "Took active part in designing the Domain structure, and the underlying system."
+            ]
+        },
+        {
+            "id": "exp-4",
+            "company": "Novibet",
+            "position": "Software Engineering Team Leader",
+            "duration": "Jun 2025 - Present",
+            "description": [
+                "Leading a .NET-based microservices architecture, applying Domain-Driven Design (DDD) for new and existing systems.",
+                "Designing and implementing core domain models, event-driven workflows, and distributed systems.",
+                "Overseeing the development of high-performance backend services in .NET.",
+                "Guiding the team on clean architecture, CQRS, and scalable microservice patterns."
             ]
         }
     ],
