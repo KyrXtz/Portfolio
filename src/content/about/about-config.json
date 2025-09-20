@@ -27,7 +27,7 @@
         {
             "id": "exp-2",
             "company": "Modus",
-            "position": "Senior Software Engineer",
+            "position": "Software Engineer",
             "duration": "Aug 2021 - Jun 2022",
             "description": [
                 "Porting existing c++ legacy code to, and development of .net core service using microservices architecture.",
@@ -37,7 +37,7 @@
         {
             "id": "exp-3",
             "company": "Accepted - Novibet",
-            "position": "Software Engineer",
+            "position": "Senior Software Engineer",
             "duration": "Jun 2022 - May 2025",
             "description": [
                 "Developing project(s) from the ground-up using Domain Driven Design and microservices architecture, which is integrated in a larger existing system.",

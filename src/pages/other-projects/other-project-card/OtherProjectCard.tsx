@@ -10,7 +10,6 @@ interface Props {
     title: string;
     showFlags?:boolean;
     app?: string;
-    site?: string,
     github?: string;
     tags: string[];
     description: string;
@@ -19,7 +18,7 @@ interface Props {
     jpg: string;
 }
 
-export const OtherProjectCard: FC<Props> = ({ showFlags, id, title, app, site, github, tags, description, readMore, image, jpg }) => {
+export const OtherProjectCard: FC<Props> = ({ showFlags, id, title, app, github, tags, description, readMore, image, jpg }) => {
     return (
         <Flex
             alignItems={{ base: "flex-start", lg: "center" }}
@@ -44,7 +43,7 @@ export const OtherProjectCard: FC<Props> = ({ showFlags, id, title, app, site, g
                     </Text>
                     <Tags tags={tags} id={id} size="xs" />
                 </Box>
-                <ProjectCardFooter showFlags={showFlags} readMore={readMore} github={github} app={app} site = {site} />
+                <ProjectCardFooter showFlags={showFlags} readMore={readMore} github={github} app={app} />
             </Flex>
         </Flex>
     );

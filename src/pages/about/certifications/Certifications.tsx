@@ -4,7 +4,7 @@ import { Accordion, AccordionItem } from "@chakra-ui/react";
 import { configs } from "shared/content/Content";
 import { Expandable } from "pages/about/common/expandable/Expandable";
 import { ArticleTitle } from "pages/about/common/title/Title";
-import { Certificate, Site } from "shared/project-card-footer/ProjectCardFooter";
+import { Certificate} from "shared/project-card-footer/ProjectCardFooter";
 
 export const Certifications: FC = () => {
     const [certificationsExpanded, setCertificationsExpanded] = useState<number[]>([]);

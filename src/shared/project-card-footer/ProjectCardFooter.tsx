@@ -24,7 +24,6 @@ interface ReadMoreProps {
 interface LiveDemoProps {
     app?: string;
     app2?: string;
-    site?: string;
     display?: any;
 }
 
@@ -86,25 +85,6 @@ export const LiveDemo: FC<LiveDemoProps> = ({ app, display }) => {
     ) : null;
 };
 
-export const Site: FC<LiveDemoProps> = ({ site }) => {
-    const as = useBreakpointValue({ base: IconButton, lg: Button });
-
-    return site ? (
-        <Button
-            data-aos="fade"
-            data-aos-delay="400"
-            as={as}
-            variant="secondary"
-            py="5"
-            leftIcon={<FaLink />}
-            icon={<FaLink />}
-            onClick={() => open(site)}
-        >
-            Site
-        </Button>
-    ) : null;
-};
-
 export const Certificate: FC<LiveDemoProps> = ({ site }) => {
     const as = useBreakpointValue({ base: IconButton, lg: Button });
 
@@ -124,14 +104,11 @@ export const Certificate: FC<LiveDemoProps> = ({ site }) => {
     ) : null;
 };
 
-export const ProjectCardFooter: FC<Props> = ({ showFlags, readMore, github, github2, app, app2, site }) => {
+export const ProjectCardFooter: FC<Props> = ({ showFlags, readMore, github, github2, app, app2 }) => {
     return (
         <Flex justifyContent={readMore ? "space-between" : "flex-end"} alignItems="center" pt="8">
             <ReadMore readMore={readMore} />
-            {(github && github2 && site) && (
-                <Site site={site} />
-            )}
-            {(github && github2 && site) && (
+            {(github && github2) && (
                 <Flex justifyContent="space-between" alignItems="center">
                     <Flex alignItems="center">
                         <GitHubButton github={github} />
@@ -146,7 +123,6 @@ export const ProjectCardFooter: FC<Props> = ({ showFlags, readMore, github, gith
                     {showFlags && <US height={18} />}
                     <Flex gap="4" justifyContent="space-between" alignItems="center">
                         <LiveDemo app={app} />
-                        <Site site={site} />
                         <GitHubButton github={github} />
                     </Flex>
                     {showFlags && <GR height={18} />}
@@ -160,7 +136,6 @@ export const ProjectCardFooter: FC<Props> = ({ showFlags, readMore, github, gith
             {((app || github) && !github2) && (
                 <Flex gap="4" justifyContent="space-between" alignItems="center" display={app || github ? "flex" : "none"}>
                     <LiveDemo app={app} />
-                    <Site site={site} />
                     <GitHubButton github={github} />
                 </Flex>
             )}
