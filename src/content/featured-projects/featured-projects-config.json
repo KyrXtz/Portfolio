@@ -24,8 +24,8 @@
         "jpg": "/assets/featured-projects/likeablebackend.jpeg"
     },    
     {
-        "id": "featured-project-flight-services (Sunset)",
-        "title": "Flight Services • Frontend & Backend",
+        "id": "featured-project-flight-services",
+        "title": "Flight Services • Frontend & Backend (Sunset)",
         "year": "Jan 2023 - May 2023",
         "location": "",
         "site": "",
@@ -55,7 +55,7 @@
         "year": "Nov 2021 - Feb 2022",
         "location": "",
         "tags": ["React-Native","Cross-Platform","Android","iOS","Javascript","Java","Objective C","Gradle","NPM","i18n"],
-        "app": "https://play.google.com/store/apps/details?id=com.kyrxtz.mybudget",
+        "app": "",
         "github": "https://github.com/KyrXtz/myBudget",
         "description": "Cross platform mobile app, for tracking daily expenses and giving budget suggestions based on them. Features expansive widget but also in-app functionality, like automations of fixed costs and incomes, savings tabs, custom expense categories and more.",
         "image": "/assets/featured-projects/mybudget.webp",
