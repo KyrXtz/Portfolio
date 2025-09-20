@@ -85,10 +85,10 @@ export const LiveDemo: FC<LiveDemoProps> = ({ app, display }) => {
     ) : null;
 };
 
-export const Certificate: FC<LiveDemoProps> = ({ site }) => {
+export const Certificate: FC<LiveDemoProps> = ({ app }) => {
     const as = useBreakpointValue({ base: IconButton, lg: Button });
 
-    return site ? (
+    return app ? (
         <Button
             data-aos="fade"
             data-aos-delay="400"
@@ -97,7 +97,7 @@ export const Certificate: FC<LiveDemoProps> = ({ site }) => {
             py="5"
             leftIcon={<FaLink />}
             icon={<FaLink />}
-            onClick={() => open(site)}
+            onClick={() => open(app)}
         >
             Certificate
         </Button>

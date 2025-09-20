@@ -32,7 +32,7 @@ export const Certifications: FC = () => {
                     </AccordionItem>
                     {cert.link && 
                     <AccordionItem p="0" border="0" mb="10" ml="-4" mt="-2">
-                        <Certificate site={cert.link} />
+                        <Certificate app={cert.link} />
                     </AccordionItem>
                     }
                     </div>
